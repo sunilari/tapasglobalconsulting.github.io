@@ -167,22 +167,15 @@ body {
 
 .page_para_div_home_page_intro {
     overflow: hidden;
-	/* background-color: #f1f1f1;
-	background-color: blue; */
-	/* background: linear-gradient(-135deg, #CDDEF3 20%, #59A0F7 80%); */
 	background: linear-gradient(-40deg, #e1e8fa 40%, #ced8f2 60%, #d1d4de 80%); 
 	color: #1245AB;
 	width: 100%;
 	height: auto;
 	line-height: 160%;
-/* 	border-top-left-radius: 9px;
-	border-top-right-radius: 9px;
-	border-bottom-left-radius: 9px;
-	border-bottom-right-radius: 9px; */
-	/* border-radius: 50px; */
 	text-align: center;
 	white-space: pre-line;
-/* 	overflow:scroll; */
+	border-radius: 20px;
+
 }
 .page_para_div_home_page_testmonials {
     overflow: hidden;
@@ -320,7 +313,19 @@ body {
 	.services_internship_text_points {
 	text-align: left;
 	/* position: relative; */
-	color: #912e07;
+	color: #464546;
+	/* white-space: pre-wrap; */
+	/* word-wrap: break-all; */
+	/* font-size: 100%; */
+	font-size: calc(2px + 1.5vw);
+	padding: 60px 20px 20px 20px;
+	line-height: 160%;
+	}
+	
+	.services_internship_disciplines {
+	text-align: left;
+	/* position: relative; */
+	color: #464546;
 	/* white-space: pre-wrap; */
 	/* word-wrap: break-all; */
 	/* font-size: 100%; */
@@ -328,10 +333,11 @@ body {
 	padding: 20px 20px 20px 20px;
 	line-height: 160%;
 	}
+	
 	.div_recruitment_top_text_right_alignment {
 		width: 35%;
-		float:right;
-		margin: 200px 80px 20px 20px
+		float:left;
+		margin: 80px 100px 10px 10px
 	}
 	.img_recruitment_head {
 	min-height: 350px;
@@ -363,12 +369,12 @@ body {
 	.services_internship_text_points {
 	text-align: left;
 	/* position: relative; */
-	color: #912e07;
+	color: #464546;
 	/* white-space: pre-wrap; */
 	/* word-wrap: break-all; */
 	/* font-size: 100%; */
 	font-size: calc(8px + 1.5vw);
-	padding: 20px 20px 20px 20px;
+	padding: 60px 20px 20px 20px;
 	line-height: 160%;
 	}
 	
@@ -468,9 +474,33 @@ body {
 	padding: 50px 50px 50px 50px;
 }
 
+.recruitment_industries_heading {
+	
+	width: 100%;
+	height: 100px;
+	clear: both;
+	float: center;
+	text-align: Left;
+	padding: 0px 50px 50px 50px;
+	/*
+	background-color: #f5ecda;
+	
+	 
+	*/
+}
+
+.recruitment_industries_heading_text {
+		font-size: calc(15px + 3vw);
+		color: #3d3b36;
+	}
+
 .services_in_home_heading {
 		font-size: calc(15px + 3vw);
 		color: #fafafa;
+	}
+.recruitment_in_home_heading {
+		font-size: calc(15px + 3vw);
+		color: #605A71;
 	}
 .services_in_home_text {
 		font-size: calc(10px + 1vw);
@@ -480,17 +510,17 @@ body {
 
 .testimonials_in_home_heading {
 		font-size: calc(5px + 3vw);
-		color: #fafafa;
+		color: #444240;
 		
 	}
 .testimonials_div_in_home {
 	clear: both;
 	width: 100%;
-	height: 200px;
-	background-color: #4a3d4a;
+
+	background-color: #dbd4ce;
 	float: left;
-	text-align: center;
-	padding: 50px 50px 50px 50px;
+	text-align: left;
+	padding: 0px 20px 40px 20px;
 	border-radius: 4%;
 }
 
@@ -709,27 +739,27 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 	}
 
 .services_internship_heading {
-	text-align: center;
+	text-align: left;
 	position: relative;
-	color: #912e07;
-	text-align: center;
-	white-space: pre-wrap;
-	/* word-wrap: break-word; */
+	color: #464546;
+	/*white-space: pre-wrap;
+	 word-wrap: break-word; */
 	font-size: calc(8px + 2vw);
 	/* border: 1px solid black; */
 }
 .services_internship_intro_text {
-	text-align: center;
+	text-align: left;
 	/* position: relative; */
-	color: #ffffff;
-	white-space: pre-wrap;
+	color: #464546;
+
 	word-wrap: break-all;
 	/* font-size: 100%; */
 	font-size: calc(10px + 1vw);
-	padding: 20px 20px 20px 20px;
-	background-color: #737578;
-	border-radius: 50px;
+	padding: 40px 20px 40px 30px;
+	background-color: #D2CCD6;
+	border-radius: 20px;
 	line-height: 160%;
+	margin: 10px 0px 10px 0px;
 	/* min-height: 350px; */
 }
 
@@ -746,7 +776,84 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 	line-height: 160%;
     font-weight: 500;
 	width: 100%;
-	margin: auto;
+	margin: 20px 20px 20px 20px;
+}
+
+.recruitment_details_text {
+	text-align: left;
+	position: relative;
+	color: #171210;
+	white-space: pre-line;
+	word-wrap: break-all; 
+	font-size: calc(8px + 1vw);
+	padding: 20px 20px 20px 20px;
+	background-color: #e0dfde;
+	border-radius: 50px;
+	line-height: 160%;
+    font-weight: 500;
+	width: 100%;
+	margin: 0px 0px 5px 0px;
+}
+
+
+.recruitment_heading_text {
+	text-align: left;
+	
+
+	color: #171210;
+	white-space: pre-line;
+	word-wrap: break-all; 
+	font-size: calc(8px + 1vw);
+	padding: 0px 20px 20px 20px;
+	background-color: #e0dfde;
+	border-radius: 10px;
+	line-height: 160%;
+    font-weight: 500;
+	width: 100%;
+	margin: 0px 20px 20px 20px;
+}
+
+
+
+.recruitment_industries_block {
+	text-align: center;
+	position: inline;
+	color: #171210;
+	white-space: pre-line;
+	word-wrap: break-all; 
+	font-size: calc(8px + 1vw);
+	padding: 20px 20px 20px 20px;
+	background-color: #e0dfde;
+	border-radius: 20px;
+	line-height: 100%;
+    font-weight: 500;
+	width: 100%;
+	margin: 20px 20px 20px 20px;
+	display: table;
+
+	
+}
+.recruitment_industries_block_items {
+	text-align: center;
+	display: table;
+	margin: 20px 20px 20px 20px;
+	width: 100%;
+	float: center;
+	/*
+	position: relative;
+	color: #171210;
+	white-space: pre-line;
+	word-wrap: break-all; 
+	font-size: calc(8px + 1vw);
+	padding: 20px 20px 20px 20px;
+	background-color: #e0dfde;
+	border-radius: 20px;
+	line-height: 100%;
+    font-weight: 500;
+	width: 100%;
+	margin: 20px 20px 20px 20px;
+	*/
+
 }
 
 .page_para_div_services_internship_page_intro {
@@ -779,13 +886,48 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 	
 }
 
+.recruitment_industries_blocks_heading_text {
+	font-size: calc(24px + 1vw);
+	color: #543e23;
+	font-family: Verdana;
+	float: center;
+	align: center;
+	line-height: 160%;
+	font-weight: 500;
+	
+	width: 100%;
+	margin: auto;
+	
+}
+
+
+.recruitment_industries_small_frame_up {
+	width: 100%;
+	float: center;
+	text-align:center;
+	position: relative;
+	border: 1px solid #9c5c32;
+	padding: 20px 20px 20px 20px;
+	margin: 10px 10px 10px 10px;
+	background-color: #EDE5D2;
+	min-height: 250px;
+	border-radius: 8px;
+	white-space:pre-line;
+	display: flex;
+    vertical-align: middle;
+	line-height: 1.5;
+	justify-content: center;
+    align-items: center;
+}
+
+
 	.services_recruitment_head_2_text {
-	text-align: center;
+	text-align: left;
 	/* position: relative; */
-	color: #585b5c;
+	color: #605A71;
 	white-space: pre-wrap;
-	word-wrap: break-all;
-	/* font-size: 100%; */
+	/*word-wrap: break-all;
+	 font-size: 100%; */
 	padding: 20px 20px 20px 20px
 }
 
@@ -830,15 +972,32 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 	position: relative;
 	border: 3px solid #9c5c32;
 	background: linear-gradient(-40deg, #e4e7f0 30%, #b5ac43 50%, #2c3447 80%);
-	padding: 5px 0px 5px 5px; 
+	padding: 5px 5px 5px 5px; 
 	margin: 20px 20px 20px 20px;
 	/* height: 100%; */
 	border-radius: 3px;
 	
 	
 }
+
+.recruitment_industries_small_frame_below {
+	display: flex;
+	/* clear: both; */
+	position: relative;
+	border: 2px solid #ebc66f;
+	background: linear-gradient(-40deg, #fde7b5 20%, #aed6e0 50%, #023971 80%);
+	padding: 5px 5px 5px 5px; 
+	margin: 20px 20px 20px 20px;
+	/* height: 100%; */
+	border-radius: 2px;
+
+	float: left;
+	
+	
+}
+
 .small_frame_up {
-	width: 90%;
+	width: auto;
 	float: center;
 	text-align:center;
 	/* display:block; */

@@ -191,22 +191,19 @@ element.style {
 	} 
 
 	.menu_item_2>li {
-		  display: -webkit-box;
+		/*
+		display: -webkit-box;
 		display: -ms-flexbox;
+		*/	
 		display: flex;
 		list-style-type: none;
-		padding: 0;
-		margin: 0;
-		height: 100%;
-		text-align: center;
-		background: orange linear-gradient(orange,#ff8c00);
+		background: #ff8c00;
 		float: left;
 		text-align: center;
-		margin: 0px 0px 0px 10px;
-		width: auto;
-		clear:both;
+		margin: 2px 0px 0px 10px;
+		width: 100%;
 		position: relative;
-		height: 35px;
+		height: auto;
 		z-index:9999;
 	}	
 
@@ -411,7 +408,16 @@ element.style {
 }
 /* ----------------------------- Start:   Header --------------------------- */
 .site-nav{display:none}
-.site-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:0 1em;background:orange linear-gradient(orange,#ff8c00);min-height:71px}
+.site-header{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-pack:justify;-ms-flex-pack:justify;
+	justify-content:space-between;
+	padding:0 1em;
+	background:#e2813d;
+	min-height:71px
+	}
 .site-header-base{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .site-logo{-ms-flex-item-align:center;align-self:center;min-width:100px;padding:0 13px 0 0}
 .site-nav{display:-webkit-box;display:-ms-flexbox;display:flex}
