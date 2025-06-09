@@ -47,7 +47,7 @@
 
 
 element.style {
-    display: block!important;
+	display: block!important;
 }
 	.site-header {
 		display: -webkit-box;
@@ -772,7 +772,7 @@ img {vertical-align: middle;}
     .main_article {
 	float: left;
 	margin: 0px 0px 0px 0px;
-    width: 100%;
+    width: auto;
     height: auto;
     position: relative;
     overflow: block;
@@ -813,7 +813,7 @@ img {vertical-align: middle;}
 	clear: both;
 	float: left;
 	margin: 0px 0px 0px 0px;
-    width: 100%;
+    width: auto;
     height: auto;
     position: relative;
 	display: block;
