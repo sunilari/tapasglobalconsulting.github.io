@@ -444,7 +444,9 @@ element.style {
 
 /* ----------------------------- Start:   Slide Show --------------------------- */
 
-* {box-sizing: border-box}
+* {
+	box-sizing: border-box;
+	}
 body {
 	font-family: Verdana, sans-serif; 
 	margin:0
@@ -799,6 +801,7 @@ img {vertical-align: middle;}
 @media screen and (max-width: 991px) {
 	* {
 	  box-sizing: border-box;
+
 	}		
 
 

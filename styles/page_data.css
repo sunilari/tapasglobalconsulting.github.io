@@ -1,7 +1,7 @@
 
 * {
 	box-sizing: border-box;
-	/* box-sizing: inherit; */
+	
 	
 }
 
@@ -877,48 +877,10 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 /*--------------------------- Services -> Recuitment --------------------------*/
 
 
-.heading_home_page_intro {
-	font-size: calc(12px + 1vw);
-	color: #543e23;
-	font-family: Arial Black;
-	float: center;
-	align: center;
-	
-}
-
-.recruitment_industries_blocks_heading_text {
-	font-size: calc(24px + 1vw);
-	color: #543e23;
-	font-family: Verdana;
-	float: center;
-	align: center;
-	line-height: 160%;
-	font-weight: 500;
-	
-	width: 100%;
-	margin: auto;
-	
-}
 
 
-.recruitment_industries_small_frame_up {
-	width: 100%;
-	float: center;
-	text-align:center;
-	position: relative;
-	border: 1px solid #9c5c32;
-	padding: 20px 20px 20px 20px;
-	margin: 10px 10px 10px 10px;
-	background-color: #EDE5D2;
-	min-height: 250px;
-	border-radius: 8px;
-	white-space:pre-line;
-	display: flex;
-    vertical-align: middle;
-	line-height: 1.5;
-	justify-content: center;
-    align-items: center;
-}
+
+
 
 
 	.services_recruitment_head_2_text {
@@ -981,7 +943,7 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 }
 
 .recruitment_industries_small_frame_below {
-	display: flex;
+	display: inline-table;
 	/* clear: both; */
 	position: relative;
 	border: 2px solid #ebc66f;
@@ -991,7 +953,7 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 	/* height: 100%; */
 	border-radius: 2px;
 
-	float: left;
+
 	
 	
 }
@@ -1000,8 +962,6 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 	width: auto;
 	float: center;
 	text-align:center;
-	/* display:block; */
-	/* clear: both; */
 	position: relative;
 	border: 1px solid #9c5c32;
 	padding: 20px 20px 20px 20px;
@@ -1011,7 +971,49 @@ canvas#viewport { border: 1px solid white; width: 900px; }
 	border-radius: 8px;
 }
 
+.recruitment_industries_small_frame_up {
+	width: auto;
+	float: center;
+	text-align:center;
+	position: relative;
+	border: 1px solid #9c5c32;
+	padding: 20px 20px 20px 20px;
+	margin: 10px 10px 10px 10px;
+	background-color: #EDE5D2;
+	min-height: 210px;
+	border-radius: 8px;
 
+	/*
+	white-space:pre-line;
+	display: flex;
+    vertical-align: middle;
+	line-height: 1.5;
+	justify-content: center;
+    align-items: center;
+	*/
+}
+
+.heading_home_page_intro {
+	font-size: calc(12px + 1vw);
+	color: #543e23;
+	font-family: Arial Black;
+	float: center;
+	align: center;
+	
+	
+}
+
+.recruitment_industries_blocks_heading_text {
+	font-size: calc(12px + 2vw);
+	color: #543e23;
+	font-family: Verdana;
+	line-height: 200%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+	
+}
 
 @keyframes mymove {
   from {background-color: red;}
